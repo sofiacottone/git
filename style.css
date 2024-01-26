@@ -27,6 +27,12 @@ body {
     font-weight: 500;
 }
 
+#nav-bar a:hover {
+    color: #5D837A;
+    font-weight: 700;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.3);
+}
+
 header h1 {
     padding: 70px 0 20px 20px;
     font-size: 40px;
@@ -40,6 +46,12 @@ header .images {
     justify-content: center;
     gap: 5px;
     margin-bottom: 70px;
+}
+
+hr {
+    border: 1px solid #5D837A;
+    width: 90%;
+    margin: auto;
 }
 
 /* sezione spese  */
@@ -122,8 +134,9 @@ header .images {
 /* /sezione photos  */
 /* sezione footer  */
 footer {
-    padding: 30px 40px;
+    padding: 2% 8%;
     text-align: right;
+    color: #5D837A;
 }
 
 /* /sezione footer  */
