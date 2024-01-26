@@ -70,3 +70,17 @@ header .images {
 #spese table {
     margin-bottom: 40px;
 }
+
+/* /sezione spese  */
+/* sezione to-do  */
+#to-do h3 {
+    padding: 70px 0 20px 0;
+    text-align: center;
+}
+
+#to-do ul {
+    margin: 0 auto 50px auto;
+    width: 30%;
+    line-height: 1.7;
+    list-style: none;
+}
