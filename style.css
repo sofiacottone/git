@@ -5,6 +5,7 @@
 }
 
 body {
+    font-family: "Roboto", sans-serif;
     /* overflow: hidden; */
 }
 
@@ -16,12 +17,15 @@ body {
     flex-direction: row;
     justify-content: space-evenly;
     position: fixed;
-
 }
 
 #nav-bar a {
     line-height: 50px;
     text-decoration: none;
     color: black;
+}
 
+header h1 {
+    padding: 70px 0 20px 20px;
+    text-align: center;
 }
