@@ -41,3 +41,32 @@ header .images {
     gap: 5px;
     margin-bottom: 20px;
 }
+
+/* sezione spese  */
+#spese h2 {
+    padding: 70px 0 20px 0;
+    text-align: center;
+}
+
+#spese table,
+#spese th,
+#spese td {
+    border: 1px solid;
+    margin: auto;
+}
+
+#spese th,
+#spese td {
+    width: 200px;
+    height: 30px;
+    text-align: center;
+}
+
+#spese tfoot td:first-of-type {
+    text-align: left;
+    padding-left: 15px;
+}
+
+#spese table {
+    margin-bottom: 40px;
+}
