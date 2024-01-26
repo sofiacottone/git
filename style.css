@@ -39,7 +39,7 @@ header .images {
     flex-direction: row;
     justify-content: center;
     gap: 5px;
-    margin-bottom: 20px;
+    margin-bottom: 70px;
 }
 
 /* sezione spese  */
@@ -68,7 +68,7 @@ header .images {
 }
 
 #spese table {
-    margin-bottom: 40px;
+    margin-bottom: 70px;
 }
 
 /* /sezione spese  */
@@ -79,7 +79,7 @@ header .images {
 }
 
 #to-do ul {
-    margin: 0 auto 50px auto;
+    margin: 0 auto 70px auto;
     width: fit-content;
     line-height: 1.7;
     list-style: none;
@@ -93,7 +93,7 @@ header .images {
 }
 
 #useful-info ol {
-    margin: 0 auto 50px auto;
+    margin: 0 auto 70px auto;
     width: fit-content;
     line-height: 1.7;
 }
@@ -105,3 +105,16 @@ header .images {
 }
 
 /* /sezione useful-info  */
+/* sezione photos  */
+#photos h3 {
+    padding: 70px 0 40px 0;
+    text-align: center;
+}
+
+#photos .images {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 70px;
+}
