@@ -80,7 +80,28 @@ header .images {
 
 #to-do ul {
     margin: 0 auto 50px auto;
-    width: 30%;
+    width: fit-content;
     line-height: 1.7;
     list-style: none;
 }
+
+/* /sezione to-do  */
+/* sezione useful-info  */
+#useful-info h3 {
+    padding: 70px 0 20px 0;
+    text-align: center;
+}
+
+#useful-info ol {
+    margin: 0 auto 50px auto;
+    width: fit-content;
+    line-height: 1.7;
+}
+
+#useful-info ul {
+    list-style: circle inside;
+    line-height: 1.7;
+    margin-bottom: 15px;
+}
+
+/* /sezione useful-info  */
